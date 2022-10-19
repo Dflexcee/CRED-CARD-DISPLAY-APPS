@@ -5,7 +5,7 @@
 const btn = document.querySelector('.btn').addEventListener("click", btnRuns);
 function btnRuns(e) {
     alert("I HOPE YOU ENJOY THE EXPERIENCE ");
-    e.preventDefault();
+    e.preventDefault(); 
 };
 
 
