@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARD DETAILS</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+ <!-- THIS IS THE BIG CONTAINER DIV BODY -->
+    <div class="container-divider">
+         <!-- CARD DISPLAY SECTIONS -->
+        <div class="card-display">
+            <div class="card-front">
+                <div class="logo">
+                    <div class="bigcircle"></div>
+                    <div class="smallcircle"></div>
+                </div>
+
+                <div class="front-card-items">
+                    <div class="frontcarddp">
+                            <div class="cardno">
+                                <h2 id="ddname" >XXXX XXXX XXXX XXXX</h2>
+                            </div>
+                    </div>
+
+                    <div class="frontcarddp2">
+                        <div class="card-name-expire">
+                            <div class="display-name">EZIH COLLINS TOCHUKWU-FLEX</div>
+                            <div class="display-date" style="margin-right: 3px;">07 / </div>
+                            <div id="ddmth" class="display-month" >26</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card-back">
+                <div class="front-card-items">
+                    <div class="frontcarddp">
+                            <div class="cardno">
+                                <h2 style="visibility: hidden;" >XXXX XXXX XXXX XXXX</h2>
+                            </div>
+                    </div>
+
+                    <div class="frontcarddp2">
+                        <div class="card-name-expire">
+                            <div class="display-name" style="visibility: hidden;">EZIH COLLINS TOCHUKWU-FLEX</div>
+                            <div class="display-cvc" style="color: black;">025</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="left">
+            <h3>
+                love u
+            </h3>
+        </div>
+        <div class="right">
+            <div class="login-box">
+                <form class="form1">
+                        <label for="fname">CARD HOLDER NAME:</label><br>
+                        <input class="nniput" maxlength="30" type="text" id="fname" name="fname" placeholder="eg name on card"><br>
+                        <label for="cnumber">CARD NUMBER:</label><br>
+                        <input class="nniput" maxlength="20" type="text" id="cnumber" name="cnumber" placeholder="eg 1234 5678 4567 7457"><br>
+                   <div class="dcv">
+                        <div class="exp-date">
+                            <label for="dname">DATE OF EXPIRE:</label><br>
+                            <input type="text" id="dmonth" maxlength="23"  name="dmonth" class="expire-date" placeholder="MM">
+                            <input type="text" id="dyear"  maxlength="23"  name="dyear" class="expire-date" placeholder="YY">
+                        </div>
+                        <div>
+                            <label for="ccv">CVC:</label><br>
+                            <input type="text" id="ccv1" maxlength="3" name="ccv" class="expire-date" placeholder="CVC"><br>
+                        </div>
+                  </div>
+                         <br>  
+                         <button class="btn" type="button" >Click Me!</button>
+
+                </form>
+            </div>
+            
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
